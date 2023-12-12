@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  .expenses {
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  button {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
+  
+  .total {
+    margin-top: 20px;
+  }
+  
+  button.delete {
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
